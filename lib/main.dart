@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       scaffoldMessengerKey: locator<MessengerService>().scaffoldKey,
       home: HomeView(),
       debugShowCheckedModeBanner: false,
-      theme: DarkTheme().theme,
+      theme: LightTheme().theme,
     );
   }
 }
